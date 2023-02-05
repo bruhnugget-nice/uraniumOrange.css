@@ -1,0 +1,54 @@
+/*TEXT*/
+.text-green{
+  color: #fa6800;
+}
+.text-green-gradient-linear{
+  background: -webkit-linear-gradient(#fa6800, #cc5500);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-green-gradient-horizontal{
+  background: -webkit-linear-gradient(to right,#fa6800, #cc5500);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/*BACKGROUNDS*/
+.background-green{
+  background-color: #fa6800;
+}
+
+.background-gradient-green-linear{
+  background-color: #fa6800; /*in case there is no support for gradient*/
+  background-image: linear-gradient(#fa6800,#cc5500);
+}
+
+.background-gradient-green-horizontal{
+  background-color: #fa6800; /*in case there is no support for gradient*/
+  background-image: linear-gradient(to right,#fa6800,#cc5500);
+}
+/*BOXES FOR DIVS*/
+.box-green{
+  background-color: #fa6800; /*in case there is no support for gradient*/
+  border: #030c06 solid 3px;
+  border-radius: 30px;
+  margin: 1px;
+}
+
+.box-green-gradient-linear{
+  background-color: #fa6800; /*in case there is no support for gradient*/
+  border: #030c06 solid 3px;
+  border-radius: 30px;
+  margin: 1px;
+  background-image: linear-gradient(#fa6800,#cc5500);
+}
+
+.box-green-gradient-horizontal{
+  background-color: #fa6800; /*in case there is no support for gradient*/
+  border: #030c06 solid 3px;
+  border-radius: 30px;
+  margin: 1px;
+  background-image: linear-gradient(to right, #fa6800,#cc5500);
+}
